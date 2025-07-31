@@ -47,6 +47,47 @@ export default function HolidayItinerary() {
             { time: "6:00 PM", title: "Dinner at Craig's", description: "Craig's Restaurant - 8826 Melrose Ave, West Hollywood • Confirmed reservation for 4 people • (310) 276-1900", type: "dinner" },
           ],
         },
+        {
+          date: "Saturday, 2 August 2025",
+          day: "Celebrity Homes Tour & Dining",
+          schedule: [
+            { time: "8:30 AM", title: "Breakfast", description: "Room service breakfast", type: "breakfast" },
+            { time: "9:00 AM", title: "Celebrity Homes Tour", description: "Tour Du Jour with Jesse (Concierge) • $440 total (2 hours) • Pick-up at Beverly Hills Hotel • (310) 659-2929", type: "activity" },
+            { time: "1:00 PM", title: "Lunch at SUR", description: "SUR Restaurant - 606 North Robertson Blvd, West Hollywood • Reservation for 4 people • (310) 289-2824", type: "lunch" },
+            { time: "Afternoon", title: "Free Time", description: "Relax at the hotel or explore Rodeo Drive • Optional Walk of Fame visit", type: "activity" },
+            { time: "9:00 PM", title: "Whisky A Go-Go - Live Band", description: "Iconic Sunset Strip venue • Live music performance • 8901 Sunset Blvd, West Hollywood", type: "activity" },
+          ],
+        },
+        {
+          date: "Sunday, 3 August 2025",
+          day: "Fine Dining Experience",
+          schedule: [
+            { time: "8:00 AM", title: "Breakfast", description: "Hotel breakfast", type: "breakfast" },
+            { time: "Morning", title: "Free Time", description: "Leisure time at the hotel or local exploration", type: "activity" },
+            { time: "1:30 PM", title: "Lunch at Laurel Tavern", description: "Laurel Tavern - 11938 Ventura Blvd, Los Angeles • Reservation for 4 people • (818) 506-0777", type: "lunch" },
+            { time: "Afternoon", title: "Hollywood Exploration", description: "Continue exploring Hollywood attractions or return to hotel", type: "activity" },
+            { time: "7:00 PM", title: "Dinner at Mastro's Penthouse", description: "Mastro's Penthouse - 246 N. Canon, Beverly Hills • Reserved on the Penthouse for 4 people • (310) 888-8782", type: "dinner" },
+          ],
+        },
+        {
+          date: "Monday, 4 August 2025",
+          day: "Luxury Dining Day",
+          schedule: [
+            { time: "8:00 AM", title: "Breakfast", description: "Hotel breakfast", type: "breakfast" },
+            { time: "Morning", title: "Free Time", description: "Spa treatments, pool time, or shopping", type: "activity" },
+            { time: "1:00 PM", title: "Lunch at Tower Bar", description: "Tower Bar - 8358 W Sunset Blvd, West Hollywood • Reservation for 4 people • Spoke with Sophia • (323) 654-7100", type: "lunch" },
+            { time: "6:00 PM", title: "Dinner at Chateau Marmont", description: "Chateau Marmont - 8221 Sunset Boulevard, Hollywood • Reservation for 4 people • (323) 656-1010", type: "dinner" },
+          ],
+        },
+        {
+          date: "Tuesday, 5 August 2025",
+          day: "Universal Studios & Farewell",
+          schedule: [
+            { time: "8:00 AM", title: "Breakfast", description: "Early breakfast at the hotel", type: "breakfast" },
+            { time: "Park Opening", title: "Universal Studios VIP Tour", description: "Full VIP experience at Universal Studios Hollywood", type: "activity" },
+            { time: "7:30 PM", title: "Farewell Dinner at Polo Lounge", description: "Polo Lounge - Beverly Hills Hotel • Final dinner reservation for 4 people • (310) 887-2777", type: "dinner" },
+          ],
+        },
       ],
     },
     {
@@ -99,6 +140,48 @@ export default function HolidayItinerary() {
             { time: "7:30 PM", title: "Dinner", description: "Ocean-view dining at Nobu Kona", type: "dinner" },
           ],
         },
+        {
+          date: "Friday, 8 August 2025",
+          day: "Volcano Adventure",
+          schedule: [
+            { time: "7:00 AM", title: "Breakfast", description: "Early breakfast at the resort", type: "breakfast" },
+            { time: "8:30 AM", title: "Morning Activity", description: "Volcano National Park full-day tour", type: "activity" },
+            { time: "12:00 PM", title: "Lunch", description: "Picnic lunch at the volcano", type: "lunch" },
+            { time: "2:00 PM", title: "Afternoon Activity", description: "Continue volcano exploration", type: "activity" },
+            { time: "7:00 PM", title: "Dinner", description: "Return to resort for dinner", type: "dinner" },
+          ],
+        },
+        {
+          date: "Saturday, 9 August 2025",
+          day: "Ocean & Coffee",
+          schedule: [
+            { time: "8:00 AM", title: "Breakfast", description: "Tropical breakfast buffet", type: "breakfast" },
+            { time: "9:30 AM", title: "Morning Activity", description: "Snorkeling at Kealakekua Bay", type: "activity" },
+            { time: "1:00 PM", title: "Lunch", description: "Beachside lunch", type: "lunch" },
+            { time: "2:30 PM", title: "Afternoon Activity", description: "Kona coffee plantation tour", type: "activity" },
+            { time: "7:30 PM", title: "Dinner", description: "Traditional Hawaiian luau", type: "dinner" },
+          ],
+        },
+        {
+          date: "Sunday, 10 August 2025",
+          day: "Spa & Relaxation",
+          schedule: [
+            { time: "8:00 AM", title: "Breakfast", description: "Resort breakfast", type: "breakfast" },
+            { time: "10:00 AM", title: "Spa Treatment", description: "Ocean-view spa treatments", type: "activity" },
+            { time: "1:00 PM", title: "Lunch", description: "Poolside lunch", type: "lunch" },
+            { time: "3:00 PM", title: "Afternoon Activity", description: "Beach activities and relaxation", type: "activity" },
+            { time: "7:00 PM", title: "Dinner", description: "Resort dining experience", type: "dinner" },
+          ],
+        },
+        {
+          date: "Monday, 11 August 2025",
+          day: "Departure Day",
+          schedule: [
+            { time: "7:00 AM", title: "Breakfast", description: "Early breakfast", type: "breakfast" },
+            { time: "9:00 AM", title: "Check-out", description: "Prepare for departure to Lanai", type: "arrival" },
+            { time: "11:00 AM", title: "Final Resort Time", description: "Last moments at the resort", type: "activity" },
+          ],
+        },
       ],
     },
     {
@@ -127,6 +210,48 @@ export default function HolidayItinerary() {
             { time: "7:00 PM", title: "Dinner", description: "Welcome dinner at Nobu Lanai", type: "dinner" },
           ],
         },
+        {
+          date: "Wednesday, 13 August 2025",
+          day: "Island Adventure",
+          schedule: [
+            { time: "8:00 AM", title: "Breakfast", description: "Ocean-view breakfast", type: "breakfast" },
+            { time: "9:30 AM", title: "Morning Activity", description: "Island exploration and hiking", type: "activity" },
+            { time: "12:30 PM", title: "Lunch", description: "Picnic lunch on secluded beach", type: "lunch" },
+            { time: "2:00 PM", title: "Afternoon Activity", description: "Snorkeling and water sports", type: "activity" },
+            { time: "7:30 PM", title: "Dinner", description: "Beachside barbecue dinner", type: "dinner" },
+          ],
+        },
+        {
+          date: "Thursday, 14 August 2025",
+          day: "Water Activities",
+          schedule: [
+            { time: "8:00 AM", title: "Breakfast", description: "Resort breakfast", type: "breakfast" },
+            { time: "9:00 AM", title: "Morning Activity", description: "Deep sea fishing excursion", type: "activity" },
+            { time: "1:00 PM", title: "Lunch", description: "Fresh catch lunch", type: "lunch" },
+            { time: "3:00 PM", title: "Afternoon Activity", description: "Diving and marine exploration", type: "activity" },
+            { time: "7:00 PM", title: "Dinner", description: "Resort fine dining", type: "dinner" },
+          ],
+        },
+        {
+          date: "Friday, 15 August 2025",
+          day: "Cultural Experience",
+          schedule: [
+            { time: "8:00 AM", title: "Breakfast", description: "Traditional Hawaiian breakfast", type: "breakfast" },
+            { time: "10:00 AM", title: "Morning Activity", description: "Hawaiian cultural workshop", type: "activity" },
+            { time: "1:00 PM", title: "Lunch", description: "Local Hawaiian cuisine", type: "lunch" },
+            { time: "3:00 PM", title: "Afternoon Activity", description: "Traditional luau preparation", type: "activity" },
+            { time: "6:00 PM", title: "Luau Dinner", description: "Traditional Hawaiian luau experience", type: "dinner" },
+          ],
+        },
+        {
+          date: "Saturday, 16 August 2025",
+          day: "Departure Day",
+          schedule: [
+            { time: "7:00 AM", title: "Breakfast", description: "Final breakfast at the resort", type: "breakfast" },
+            { time: "9:00 AM", title: "Check-out", description: "Prepare for departure to California", type: "arrival" },
+            { time: "11:00 AM", title: "Final Island Time", description: "Last moments on Lanai", type: "activity" },
+          ],
+        },
       ],
     },
     {
@@ -147,6 +272,28 @@ export default function HolidayItinerary() {
             { time: "3:00 PM", title: "Check-in", description: "Arrive at the coastal resort", type: "arrival" },
             { time: "5:00 PM", title: "Beach Club", description: "Afternoon at the beach club", type: "social" },
             { time: "7:30 PM", title: "Dinner", description: "Farm-to-table dining", type: "dinner" },
+          ],
+        },
+        {
+          date: "Monday, 18 August 2025",
+          day: "Wine Country",
+          schedule: [
+            { time: "8:30 AM", title: "Breakfast", description: "California breakfast", type: "breakfast" },
+            { time: "10:00 AM", title: "Morning Activity", description: "Santa Barbara wine country tour", type: "activity" },
+            { time: "1:00 PM", title: "Lunch", description: "Winery lunch with tastings", type: "lunch" },
+            { time: "3:00 PM", title: "Afternoon Activity", description: "Continue wine tasting tour", type: "activity" },
+            { time: "7:00 PM", title: "Dinner", description: "Fine dining at the resort", type: "dinner" },
+          ],
+        },
+        {
+          date: "Tuesday, 19 August 2025",
+          day: "Beach & Spa",
+          schedule: [
+            { time: "8:00 AM", title: "Breakfast", description: "Resort breakfast", type: "breakfast" },
+            { time: "10:00 AM", title: "Spa Treatment", description: "Coastal spa experience", type: "activity" },
+            { time: "1:00 PM", title: "Lunch", description: "Beach club lunch", type: "lunch" },
+            { time: "3:00 PM", title: "Afternoon Activity", description: "Beach activities and relaxation", type: "activity" },
+            { time: "7:00 PM", title: "Dinner", description: "Final dinner at the resort", type: "dinner" },
           ],
         },
       ],
@@ -177,6 +324,28 @@ export default function HolidayItinerary() {
             { time: "7:00 PM", title: "Dinner", description: "Mountain lodge dining", type: "dinner" },
           ],
         },
+        {
+          date: "Thursday, 21 August 2025",
+          day: "Yosemite Exploration",
+          schedule: [
+            { time: "7:00 AM", title: "Breakfast", description: "Hearty mountain breakfast", type: "breakfast" },
+            { time: "8:30 AM", title: "Morning Activity", description: "Yosemite Valley hiking tour", type: "activity" },
+            { time: "12:00 PM", title: "Lunch", description: "Trail lunch with views", type: "lunch" },
+            { time: "1:30 PM", title: "Afternoon Activity", description: "Photography and wildlife viewing", type: "activity" },
+            { time: "7:30 PM", title: "Dinner", description: "Campfire dinner under the stars", type: "dinner" },
+          ],
+        },
+        {
+          date: "Friday, 22 August 2025",
+          day: "Adventure Day",
+          schedule: [
+            { time: "6:00 AM", title: "Breakfast", description: "Early breakfast for adventure", type: "breakfast" },
+            { time: "7:30 AM", title: "Morning Activity", description: "Rock climbing and rappelling", type: "activity" },
+            { time: "12:00 PM", title: "Lunch", description: "Mountain picnic", type: "lunch" },
+            { time: "2:00 PM", title: "Afternoon Activity", description: "River rafting and water activities", type: "activity" },
+            { time: "7:00 PM", title: "Dinner", description: "Final mountain lodge dinner", type: "dinner" },
+          ],
+        },
       ],
     },
     {
@@ -197,6 +366,17 @@ export default function HolidayItinerary() {
             { time: "3:00 PM", title: "Check-in", description: "Arrive in downtown San Francisco", type: "arrival" },
             { time: "5:00 PM", title: "City Views", description: "Cocktails with city skyline views", type: "social" },
             { time: "8:00 PM", title: "Dinner", description: "Michelin-starred dining experience", type: "dinner" },
+          ],
+        },
+        {
+          date: "Sunday, 24 August 2025",
+          day: "San Francisco Highlights",
+          schedule: [
+            { time: "8:00 AM", title: "Breakfast", description: "Urban breakfast at the hotel", type: "breakfast" },
+            { time: "9:30 AM", title: "Morning Activity", description: "Golden Gate Bridge and Alcatraz tour", type: "activity" },
+            { time: "1:00 PM", title: "Lunch", description: "Fisherman's Wharf seafood lunch", type: "lunch" },
+            { time: "3:00 PM", title: "Afternoon Activity", description: "City exploration and shopping", type: "activity" },
+            { time: "7:00 PM", title: "Farewell Dinner", description: "Final celebration dinner", type: "dinner" },
           ],
         },
       ],
