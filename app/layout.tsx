@@ -9,7 +9,6 @@ export const metadata: Metadata = {
   title: "American Tour 2025",
   description: "Travel Itinerary XK9",
   manifest: "/manifest.json",
-  themeColor: "#d97706",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
@@ -31,7 +30,11 @@ export const metadata: Metadata = {
       { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
     ],
   },
-    generator: 'v0.dev'
+  generator: 'v0.dev'
+}
+
+export const viewport = {
+  themeColor: "#d97706",
 }
 
 export default function RootLayout({
