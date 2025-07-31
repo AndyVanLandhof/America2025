@@ -2,7 +2,7 @@ export function middleware(req) {
   const basicAuth = req.headers.get('authorization')
 
   const USER = 'admin'
-  const PASS = 'mypassword'
+  const PASS = '260501'
 
   if (basicAuth) {
     const [scheme, encoded] = basicAuth.split(' ')
