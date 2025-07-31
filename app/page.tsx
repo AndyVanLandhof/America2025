@@ -266,7 +266,7 @@ export default function HolidayItinerary() {
   if (selectedDestination !== null) {
     const destination = tripSegments[selectedDestination]
     return (
-      <div className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-100">
+      <div className="bg-gradient-to-br from-amber-50 to-orange-100">
         <div className="bg-white shadow-sm border-b relative overflow-hidden">
           <div className="absolute inset-0 z-0">
             <Image
@@ -305,7 +305,7 @@ export default function HolidayItinerary() {
           </div>
         </div>
 
-        <div className="max-w-4xl mx-auto px-4 py-8">
+        <div className="max-w-4xl mx-auto px-4 py-8 pb-16">
           <div className="space-y-6">
             {destination.dailyItinerary.map((day, dayIndex) => (
               <Card key={dayIndex} className="overflow-hidden">
