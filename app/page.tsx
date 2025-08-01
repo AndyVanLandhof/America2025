@@ -11,6 +11,13 @@ import Image from "next/image"
 export default function HolidayItinerary() {
   const [selectedDestination, setSelectedDestination] = useState<number | null>(null)
 
+  // Scroll to top when entering detail view
+  useEffect(() => {
+    if (selectedDestination !== null) {
+      window.scrollTo(0, 0)
+    }
+  }, [selectedDestination])
+
   const tripSegments = [
     {
       location: "Beverly Hills Hotel",
@@ -446,11 +453,6 @@ export default function HolidayItinerary() {
 
   if (selectedDestination !== null) {
     const destination = tripSegments[selectedDestination]
-    
-    // Scroll to top when entering detail view
-    useEffect(() => {
-      window.scrollTo(0, 0)
-    }, [selectedDestination])
     
     return (
       <div className="bg-gradient-to-br from-amber-50 to-orange-100">
