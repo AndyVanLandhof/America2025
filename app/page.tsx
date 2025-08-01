@@ -681,16 +681,188 @@ export default function HolidayItinerary() {
           <CardContent>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <h4 className="font-semibold mb-3">Flight Details</h4>
+                <h4 className="font-semibold mb-3">Commercial Flights</h4>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li>• <strong>Departure:</strong> BA286 from London (July 31)</li>
                   <li>• <strong>Return:</strong> BA001 to London (August 25)</li>
-                  <li>• <strong>Private jets:</strong> Multiple Vistajet segments</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-3">Private Jet Details</h4>
+                <ul className="space-y-2 text-sm text-gray-600">
+                  <li>• <strong>Operator:</strong> Jet Select, LLC (DBA Vista America)</li>
+                  <li>• <strong>Aircraft:</strong> Challenger 350</li>
+                  <li>• <strong>Multiple segments:</strong> LAX→Kona, Kona→Lanai, Lanai→Santa Barbara</li>
                 </ul>
               </div>
             </div>
           </CardContent>
         </Card>
+
+        {/* Detailed Flight Information */}
+        <div className="mt-8 space-y-6">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Private Jet Flight Details</h2>
+          
+          {/* Flight 1: LAX to Kona */}
+          <Card className="overflow-hidden">
+            <CardHeader className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
+              <CardTitle className="flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <Plane className="w-5 h-5" />
+                  <span>Vistajet - Challenger 350</span>
+                </div>
+                <Badge variant="secondary" className="bg-white/20 text-white border-white/30 text-lg px-4 py-2 font-semibold">
+                  1:30 PM
+                </Badge>
+              </CardTitle>
+              <CardDescription className="text-white/90">Thursday, 7 August 2025</CardDescription>
+            </CardHeader>
+            <CardContent className="p-6">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-semibold mb-3">Flight Details</h4>
+                  <ul className="space-y-2 text-sm text-gray-600">
+                    <li><strong>Aircraft:</strong> Challenger 350</li>
+                    <li><strong>From:</strong> Los Angeles Int (KLAX)</li>
+                    <li><strong>Departure:</strong> 1:30 PM local time</li>
+                    <li><strong>To:</strong> Kailua-Kona (PHKO)</li>
+                    <li><strong>Arrival:</strong> 4:10 PM local time</li>
+                    <li><strong>Operator:</strong> Jet Select, LLC (DBA Vista America, JetSelect Aviation)</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-3">Route Information</h4>
+                  <ul className="space-y-2 text-sm text-gray-600">
+                    <li><strong>Flight Time:</strong> 2 hours 40 minutes</li>
+                    <li><strong>Distance:</strong> ~2,500 miles</li>
+                    <li><strong>Type:</strong> Private Jet</li>
+                    <li><strong>Service:</strong> Luxury private aviation</li>
+                  </ul>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Flight 2: Kona to Lanai */}
+          <Card className="overflow-hidden">
+            <CardHeader className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
+              <CardTitle className="flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <Plane className="w-5 h-5" />
+                  <span>Vistajet - Challenger 350</span>
+                </div>
+                <Badge variant="secondary" className="bg-white/20 text-white border-white/30 text-lg px-4 py-2 font-semibold">
+                  12:00 PM
+                </Badge>
+              </CardTitle>
+              <CardDescription className="text-white/90">Tuesday, 12 August 2025</CardDescription>
+            </CardHeader>
+            <CardContent className="p-6">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-semibold mb-3">Flight Details</h4>
+                  <ul className="space-y-2 text-sm text-gray-600">
+                    <li><strong>Aircraft:</strong> Challenger 350</li>
+                    <li><strong>From:</strong> Kailua-Kona (PHKO)</li>
+                    <li><strong>Departure:</strong> 12:00 PM local time</li>
+                    <li><strong>To:</strong> Lanai City (PHNY)</li>
+                    <li><strong>Arrival:</strong> 12:35 PM local time</li>
+                    <li><strong>Operator:</strong> Jet Select, LLC (DBA Vista America, JetSelect Aviation)</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-3">Route Information</h4>
+                  <ul className="space-y-2 text-sm text-gray-600">
+                    <li><strong>Flight Time:</strong> 35 minutes</li>
+                    <li><strong>Distance:</strong> ~100 miles</li>
+                    <li><strong>Type:</strong> Inter-island Private Jet</li>
+                    <li><strong>Service:</strong> Luxury private aviation</li>
+                  </ul>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Flight 3: Lanai to Kona */}
+          <Card className="overflow-hidden">
+            <CardHeader className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
+              <CardTitle className="flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <Plane className="w-5 h-5" />
+                  <span>Vistajet - Challenger 350</span>
+                </div>
+                <Badge variant="secondary" className="bg-white/20 text-white border-white/30 text-lg px-4 py-2 font-semibold">
+                  9:00 AM
+                </Badge>
+              </CardTitle>
+              <CardDescription className="text-white/90">Sunday, 17 August 2025</CardDescription>
+            </CardHeader>
+            <CardContent className="p-6">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-semibold mb-3">Flight Details</h4>
+                  <ul className="space-y-2 text-sm text-gray-600">
+                    <li><strong>Aircraft:</strong> Challenger 350</li>
+                    <li><strong>From:</strong> Lanai City (PHNY)</li>
+                    <li><strong>Departure:</strong> 9:00 AM local time</li>
+                    <li><strong>To:</strong> Kailua-Kona (PHKO)</li>
+                    <li><strong>Arrival:</strong> 9:31 AM local time</li>
+                    <li><strong>Operator:</strong> Jet Select, LLC (DBA Vista America, JetSelect Aviation)</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-3">Route Information</h4>
+                  <ul className="space-y-2 text-sm text-gray-600">
+                    <li><strong>Flight Time:</strong> 31 minutes</li>
+                    <li><strong>Distance:</strong> ~100 miles</li>
+                    <li><strong>Type:</strong> Inter-island Private Jet</li>
+                    <li><strong>Service:</strong> Luxury private aviation</li>
+                  </ul>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Flight 4: Kona to Santa Barbara */}
+          <Card className="overflow-hidden">
+            <CardHeader className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
+              <CardTitle className="flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <Plane className="w-5 h-5" />
+                  <span>Vistajet - Challenger 350</span>
+                </div>
+                <Badge variant="secondary" className="bg-white/20 text-white border-white/30 text-lg px-4 py-2 font-semibold">
+                  10:40 AM
+                </Badge>
+              </CardTitle>
+              <CardDescription className="text-white/90">Sunday, 17 August 2025</CardDescription>
+            </CardHeader>
+            <CardContent className="p-6">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-semibold mb-3">Flight Details</h4>
+                  <ul className="space-y-2 text-sm text-gray-600">
+                    <li><strong>Aircraft:</strong> Challenger 350</li>
+                    <li><strong>From:</strong> Kailua-Kona (PHKO)</li>
+                    <li><strong>Departure:</strong> 10:40 AM local time</li>
+                    <li><strong>To:</strong> Santa Barbara</li>
+                    <li><strong>Arrival:</strong> 6:40 PM local time</li>
+                    <li><strong>Operator:</strong> Jet Select, LLC (DBA Vista America, JetSelect Aviation)</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-3">Route Information</h4>
+                  <ul className="space-y-2 text-sm text-gray-600">
+                    <li><strong>Flight Time:</strong> 8 hours (with time zone change)</li>
+                    <li><strong>Distance:</strong> ~2,500 miles</li>
+                    <li><strong>Type:</strong> Private Jet to Mainland</li>
+                    <li><strong>Service:</strong> Luxury private aviation</li>
+                  </ul>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
 
         <div className="text-center mt-12 py-8 border-t">
           <p className="text-gray-600 mb-2">
