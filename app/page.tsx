@@ -43,6 +43,7 @@ export default function HolidayItinerary() {
           day: "Beverly Hills Dining",
           schedule: [
             { time: "8:00 AM", title: "Breakfast", description: "Continental breakfast at the hotel", type: "breakfast" },
+            { time: "10:00 AM", title: "Shopping on Rodeo Drive", description: "Luxury shopping experience on Rodeo Drive", type: "activity" },
             { time: "1:30 PM", title: "Lunch at The Ivy", description: "The Ivy - 113 North Robertson Blvd, West Hollywood • Reservation for 4 people • (310) 274-8303", type: "lunch" },
             { time: "6:00 PM", title: "Dinner at Craig's", description: "Craig's Restaurant - 8826 Melrose Ave, West Hollywood • Confirmed reservation for 4 people • (310) 276-1900", type: "dinner" },
           ],
