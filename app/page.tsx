@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Calendar, MapPin, Phone, Camera, Plane, Hotel, ArrowLeft, Clock } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -446,6 +446,12 @@ export default function HolidayItinerary() {
 
   if (selectedDestination !== null) {
     const destination = tripSegments[selectedDestination]
+    
+    // Scroll to top when entering detail view
+    useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [selectedDestination])
+    
     return (
       <div className="bg-gradient-to-br from-amber-50 to-orange-100">
         <div className="bg-white shadow-sm border-b relative overflow-hidden">
