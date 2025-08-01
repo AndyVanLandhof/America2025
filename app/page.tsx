@@ -13,7 +13,7 @@ export default function HolidayItinerary() {
 
   // Scroll to top when entering detail view
   useEffect(() => {
-    if (selectedDestination !== null) {
+    if (selectedDestination !== null && typeof window !== 'undefined') {
       window.scrollTo(0, 0)
     }
   }, [selectedDestination])
@@ -63,7 +63,7 @@ export default function HolidayItinerary() {
             { time: "9:00 AM", title: "Celebrity Homes Tour", description: "Tour Du Jour with Jesse (Concierge) • $440 total (2 hours) • Pick-up at Beverly Hills Hotel • (310) 659-2929", type: "activity" },
             { time: "1:00 PM", title: "Lunch at SUR", description: "SUR Restaurant - 606 North Robertson Blvd, West Hollywood • Reservation for 4 people • (310) 289-2824", type: "lunch" },
             { time: "Afternoon", title: "Free Time", description: "Relax at the hotel or explore Rodeo Drive • Optional Walk of Fame visit", type: "activity" },
-            { time: "9:00 PM", title: "Whisky A Go-Go - Live Band", description: "Iconic Sunset Strip venue • Live music performance • 8901 Sunset Blvd, West Hollywood", type: "activity" },
+            { time: "7:15 PM", title: "Dinner at Spago Beverly Hills", description: "Spago Beverly Hills - 176 N Canon Dr, Beverly Hills • Reservation for 4 people • (310) 385-0880", type: "dinner" },
           ],
         },
         {
